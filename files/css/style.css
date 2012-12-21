@@ -56,7 +56,9 @@ form { margin: 0px; }
 .tweet-bit:hover { background-color: #f5f5f5; }
 .tweet-bit .pic { width: 50px; vertical-align: top; }
 .tweet-bit .tweet-stuff { width: auto; }
-.thumb-pic { width: 24px; height: 24px; }
+.thumb-pic { width: 24px; height: 24px; -webkit-border-radius: 4px; }
+.feed-stat { width: 80px; padding: 0 8px; vertical-align: middle; }
+.feed-extra { vertical-align: middle; }
 
 /* Modal tweet dialog */
 .modal-header { height: 35px; background-color: #f5f5f5; }
